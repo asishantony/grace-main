@@ -8,12 +8,12 @@ body {
 }
 
 a {
-  color: #ed502e;
+  color: #034b26;
   text-decoration: none;
 }
 
 a:hover {
-  color: #f1775d;
+  color: #97cc10;
   text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #ed502e;
+  border: 6px solid #97cc10;
   border-top-color: white;
   border-radius: 50%;
   width: 60px;
@@ -1643,7 +1643,7 @@ section {
   padding: 15px 0;
   background: #f6f9fd;
   min-height: 40px;
-  margin-top: 82px;
+  margin-top: 112px;
 }
 
 @media (max-width: 992px) {
@@ -1893,4 +1893,8 @@ font-weight: 600;
 .form-control:read-only {
   color: #666;
   background: #fff;
+}
+section.inner-page h2 {
+  font-weight: 900;
+  color: #034b26;
 }
